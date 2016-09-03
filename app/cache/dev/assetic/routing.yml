@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: '/Users/chalosalvador/Google Drive/proyectos/upload1/app/config/routing_dev.yml'
+    resource: '/Users/chalosalvador/Google Drive/proyectos/test/upload/app/config/routing_dev.yml'

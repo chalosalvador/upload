@@ -10,4 +10,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: a1f5faaebfa1887a5d78e1cd35b21ae104b87b48
-    database_path: "%kernel.root_dir%/data.db3"
+    database_path: '%kernel.root_dir%/data.db3'

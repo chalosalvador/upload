@@ -1,0 +1,19 @@
+{# app/Resources/views/product/new.html.twig #}
+<h1>Adding a new product</h1>
+
+{{ form_start(form) }}
+    {# ... #}
+
+    {{ form_row(form.brochure) }}
+{{ form_end(form) }}
+
+<table>
+{% for product in products %}
+    <tr>
+        <td><a href="{{ asset('uploads/brochures/' ~ product.brochure) }}">View brochure (PDF)</a>
+</td>
+        <td><a href="{{ asset('uploads/brochures/' ~ product.photo) }}">View brochure (PDF)</a>
+</td>
+    </tr>
+{% endfor %}
+</table>
